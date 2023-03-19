@@ -6,8 +6,8 @@
 appropriate elements as needed. <br>
 a) [3 points] All files: Create a “files” folder and an “images” folder inside root folder. Place
 index.html file in the root folder. Move other html files inside the “files” folder. Structure
-the content within each file using appropriate html elements such as <html>, <head>,
-<body>, <section>, <header>, and <footer>. Each file needs a unique title and a navigation
+the content within each file using appropriate html elements such as \<html\>, \<head\>,
+\<body\>, \<section\>, \<header\>, and \<footer\>. Each file needs a unique title and a navigation
 list (use <nav> and <ul> elements) that enables navigation to all other files (using <a>
 elements). Add a copyright note using copyright character.<br>
 b) [1 points] project.html file: This file describes your capstone project. Add a favicon (for
