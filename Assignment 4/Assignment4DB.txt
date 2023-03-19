@@ -1,0 +1,8 @@
+sqlite3 feedback.db
+CREATE TABLE feedback (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+name TEXT NOT NULL,
+email TEXT NOT NULL,
+postal_code TEXT NOT NULL,
+message TEXT
+);
