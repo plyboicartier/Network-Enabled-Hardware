@@ -1,0 +1,4 @@
+﻿  TCPclient.cpp
+C:\Users\Carter\College\Winter 2023\PROG2067\Assignment 6\TCPclient\TCPclient.cpp(118,85): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Carter\College\Winter 2023\PROG2067\Assignment 6\TCPclient\TCPclient.cpp(29,10): warning C4101: 'recvbuf': unreferenced local variable
+LINK : fatal error LNK1168: cannot open C:\Users\Carter\College\Winter 2023\PROG2067\Assignment 6\TCPclient\x64\Debug\TCPclient.exe for writing

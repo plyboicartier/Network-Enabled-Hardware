@@ -1,0 +1,15 @@
+/*  
+    Carter Glynn 8657212
+    PROG 2607 - Network Enabled Hardware
+    2023-02-05
+*/
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type=number] {
+    appearance: textfield;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    margin: 0.25rem;
+}

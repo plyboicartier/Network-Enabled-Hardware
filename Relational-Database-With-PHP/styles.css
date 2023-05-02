@@ -1,0 +1,210 @@
+/*  
+    Carter Glynn 8657212
+    PROG 2607 - Network Enabled Hardware
+    2023-02-13
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+:root {
+    --header-footer: #202020
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Hubballi', cursive;
+}
+/*-----------------------*/
+/*    Nav Bar Styling    */
+/*-----------------------*/
+nav {
+    background-color: var(--header-footer);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.lnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.lnav-item {
+    list-style: none;
+    margin-left: 1rem;
+}
+.nav-logo img{
+    display: block;
+    width: 4rem; 
+    height: 4rem;
+    background-color: aqua;
+    padding: 0.25rem;
+    border: 0.0625rem solid aqua;
+    border-radius: 50%;
+}
+.nav-logo a{
+    display: block;
+}
+.nav-name div{
+    padding: 0.25rem;
+}
+.nav-name a {
+    text-decoration: none;
+    color: white;
+}
+.rnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rnav-item {
+    list-style: none;
+    margin-right: 2rem;
+
+    font-size: 1.25rem;
+}
+.rnav-item a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: 0.0625rem solid var(--header-footer);
+}
+.rnav-item a:hover {
+    font-weight: bold;
+    background-color: aqua;
+    border: 0.0625rem solid aqua;
+    border-radius: 1rem;
+    color: var(--header-footer);
+}
+
+/*----------------------*/
+/*    Footer Styling    */
+/*----------------------*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 1.5rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--header-footer);
+    color: white;
+    text-align: center;
+}
+
+/*-------------------------*/
+/*    Main Page Styling    */
+/*-------------------------*/
+
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    padding: 5rem;
+}
+
+/*----------------------------*/
+/*    Project Page Styling    */
+/*----------------------------*/
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+/*-----------------------------*/
+/*    Feedback Form Styling    */
+/*-----------------------------*/
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6rem;
+    padding: 2.5rem;
+}
+.container *:focus {
+    background-color: aqua;
+}
+.container *:valid {
+    background-color: lime;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: 2.5rem;
+}
+.contact > input {
+    height: 2rem;
+    font-size: large;
+    padding-left: 10px;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+#msg {
+    width: 33vw;
+    height: 50vh;
+    resize: none;
+    font-size: larger;
+    padding: 10px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+.buttons *{
+    margin: 0 10vw 0 10vw;
+    width: 5rem;
+    height: 1.5rem;
+    border: none;
+    background-color: darkgray;
+    font-weight: bold;
+}
+
+/*---------------------*/
+/*    Table Styling    */
+/*---------------------*/
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:96vh;
+}
+table {
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+td {
+    text-align: center;
+    padding: 0.5rem;
+}

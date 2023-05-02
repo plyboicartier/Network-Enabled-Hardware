@@ -1,0 +1,8 @@
+﻿  TCPserver.cpp
+C:\Users\Carter\College\Winter 2023\PROG2067\Assignment 6\TCPserver\TCPserver.cpp(125,133): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Carter\College\Winter 2023\PROG2067\Assignment 6\TCPserver\TCPserver.cpp(112,10): warning C4101: 'str': unreferenced local variable
+C:\Users\Carter\College\Winter 2023\PROG2067\Assignment 6\TCPserver\TCPserver.cpp(191,71): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Carter\College\Winter 2023\PROG2067\Assignment 6\TCPserver\TCPserver.cpp(194,73): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Carter\College\Winter 2023\PROG2067\Assignment 6\TCPserver\TCPserver.cpp(197,85): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Carter\College\Winter 2023\PROG2067\Assignment 6\TCPserver\TCPserver.cpp(200,77): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  TCPserver.vcxproj -> C:\Users\Carter\College\Winter 2023\PROG2067\Assignment 6\TCPserver\x64\Debug\TCPserver.exe
